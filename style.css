@@ -277,7 +277,7 @@ main{
     header{
         padding: 20px;
     }
-    nav ,.temas-container{
+    nav ,.temas-container,.features , .sponsor-img{
         flex-direction: column;
     }
     .banner-content{
@@ -289,12 +289,18 @@ main{
         grid-template-columns: repeat(1,1fr);
         gap: 1.5rem;
     }
+    .feature-img img{
+        width: 90%;
+        margin-left: 0;
+    }
     .facts{
         text-align: center;
     }
 
     .facts-card-container{
         flex-direction: column;
+        text-align: center;
+        margin-left: 3rem;
         
     }
     
@@ -319,8 +325,19 @@ main{
     .temas-container{
         flex-direction: column;
     }
-    
+.features{
+    flex-direction: column;
+}
+.feature-img img{
+    width: 100%;
+    margin-left: 0px;
 
+}
 
+.sponsor-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
 }
 
