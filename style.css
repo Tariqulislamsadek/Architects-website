@@ -136,6 +136,51 @@ main{
     color: ;
 }
 
+/* *************************featuresstyles************** */
+
+.features{
+    margin-top: 8.1rem;
+    display: flex;
+    gap: 6rem;
+}
+
+
+
+.feature-description{
+    margin-bottom: 5rem;
+}
+.card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 6rem;
+}
+
+.feature-img img{
+
+    height: 90%;
+    margin-left: 50px;
+}
+
+.feature-experience{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 20rem;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.feature-experience h2{
+    font-size: 4rem;
+    margin: 0;
+}
+.feature-experience p{
+    font-size: 16px;
+    margin: 0;
+}
 
 /* ******************facts styles************ */
 .facts-title{
@@ -172,6 +217,50 @@ main{
     margin-bottom: 10px;
 }
 
+/* ************sponsor style****** */
+.sponsor{
+    text-align: center;
+}
+.sponsor-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.sponsor-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.sponsor-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.sponsor-img img{
+    width: 181.667px;
+    height: 50px;
+}
+
+
+/* ****************footer-section-styles************** */
+
+.footer-section{
+    border-radius: 8px;
+    height: 100px;
+    background: #FFF4E7;
+    padding: 10px;
+}
+.footer-description{
+    text-align: center;
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 
 
 
